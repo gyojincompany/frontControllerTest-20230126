@@ -7,7 +7,7 @@
 <title>회원 로그인</title>
 </head>
 <body>
-	<form action="Login.naver">
+	<form action="Login.naver" method="post">
 		아이디 : <input type="text" name="id"> <br><br>
 		비밀번호 : <input type="text" name="pw"> <br><br>
 		<input type="submit" value="로그인">
